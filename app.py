@@ -1,5 +1,5 @@
-from utils import add
-from helpers import get_data
+from messy_project.logic import add_numbers
+from messy_project.data import get_fruit
 
 
 def main():
