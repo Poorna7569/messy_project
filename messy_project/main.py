@@ -1,5 +1,5 @@
-from utils import add
-from helpers import get_data
+from messy_project.logic import add
+from messy_project.data import get_data
 
 
 def main():
@@ -14,7 +14,6 @@ def main():
 
     data = get_data()
     print("Data:", data)
-
-
+    
 if __name__ == "__main__":
     main()
