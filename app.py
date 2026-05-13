@@ -1,7 +1,6 @@
 from messy_project.logic import add_numbers
 from messy_project.data import get_fruit
 
-
 def main():
     """Main application entry point."""
     print("starting app")
@@ -9,10 +8,10 @@ def main():
     x = input("Enter your name: ")
     print("Hello " + x)
 
-    result = add(5, 3)
+    result = add_numbers(5, 3)
     print("Result:", result)
 
-    data = get_data()
+    data = get_fruit()
     print("Data:", data)
     
 if __name__ == "__main__":
