@@ -1,5 +1,5 @@
 from messy_project.logic import add_numbers
-from messy_project.data import get_fruit
+from messy_project.fruit_data import get_fruit  
 
 def main():
     """Main application entry point."""
